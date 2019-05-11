@@ -7,7 +7,7 @@ M2M 또는 IoT 기기와 G/W의 연동을 위해 정의된 protocol이며, 경�
 	+ Topic에 발행된 message와 연결상태 확인을 위한 live(heart-beat)를 항상 유지된 연결을 통해 전달하게 된다.
 	+ 연결 상태를 유지하는 것은 물론이고 연결이 끊어진 경우 재접속 등의 지원을 위한 자체 기능을 보유하고 있다.
 * Topic 그리고 발행(publication) / 구독(subscription)
-	+ 개설된 Topic에 message를 발행하면 해당 Topic을 구독하는 client 들에게 message를 전송한다다.
+	+ 개설된 Topic에 message를 발행하면 해당 Topic을 구독하는 client 들에게 message를 전송한다.
 	+ 따라서 one to multi 또는 one to one message 전송을 모두 지원할 수 있다.
 * QoS(Quality of Service)는 0, 1, 2 세단계를 지원
 	+ 0 : 최대 1회 전송. Topic을 통해 message를 전송할 뿐 꼭 받으리라는 보장은 안해준다.
